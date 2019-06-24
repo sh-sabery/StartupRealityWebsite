@@ -35,6 +35,12 @@ function SponsorsSection(){
                 title: 'خانه استارت‌آپ',
                 link: 'http://Khanestartup.ir/',
               },
+              {
+                id: 5,
+                image: 'snapp.png',
+                title: 'اسنپ',
+                link: 'http://snapp.ir/',
+              },
             ]
           }
         />
