@@ -4,12 +4,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-
-  @media only screen and (max-width: 800px){
-    &:not(:last-child){
-      margin-bottom: 3rem;
-    }
-  }
   
   flex-basis: 5rem;
   &__avatar{
@@ -25,21 +19,16 @@
     padding: 0.5rem 0;
     font-size: 1.2rem;
   }
-  &__linkedin{
-    
-    width: 18px;  
+  &__icon{
+    width: 1.6rem;
   }
-  &__instagram{
-    
-    width: 18px;  
-  }
-  &__twitter{
-    
-    width: 18px;  
-  }
-  &__social{
-
+  &__socials{
     display: flex;
-    margin: 0 auto 30px auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__social:not(:last-child){
+    margin-left: 1rem;
   }
 }
