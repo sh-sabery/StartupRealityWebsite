@@ -43,9 +43,7 @@ class TeamSection extends React.PureComponent{
         name: 'خشایار خوش‌آرای',
         image: 'khashayar.jpg',
         title: '',
-        linkedin: '#',
-        instagram: '#',
-        twitter: '#',
+        instagram: 'https://www.instagram.com/khashayar.khosharay/',
       },
       {
         name: 'میلاد موسوی',
@@ -59,9 +57,7 @@ class TeamSection extends React.PureComponent{
         name: 'پویا مظفرمقام',
         image: 'pouya.jpg',
         title: '',
-        linkedin: '#',
-        instagram: '#',
-        twitter: '#',
+        linkedin: 'https://linkedin.com/in/pomzi/',
       },
       {
         name: 'الهام اسماعیلی',
@@ -87,9 +83,8 @@ class TeamSection extends React.PureComponent{
         name: 'محسن راعی',
         image: 'mohsenr.jpg',
         title: '',
-        linkedin: '#',
-        instagram: '#',
-        twitter: '#',
+        linkedin: 'https://www.linkedin.com/in/raeimohsen/',
+        instagram: 'https://www.instagram.com/mohsenraei/',
       },
       {
         name: 'علی اسمعیلی',
@@ -98,6 +93,33 @@ class TeamSection extends React.PureComponent{
         linkedin: 'https://www.linkedin.com/in/realxoman/',
         instagram: 'https://instagram.com/ali.___.esmaeili/',
         twitter: 'https://twitter.com/realxoman/',
+      },
+      {
+        name: 'نیما کاوه',
+        image: 'nima.jpg',
+        title: '',
+        linkedin: 'https://www.linkedin.com/in/nima-kaveh/',
+        instagram: 'https://www.instagram.com/nima_.kaveh/',
+      },
+      {
+        name: 'بهاره هادوی',
+        image: 'bahar.jpg',
+        title: '',
+        linkedin: 'https://www.linkedin.com/in/bahare-hadavi-38380b18a/',
+        instagram: 'https://www.instagram.com/baharhdv/',
+      },
+      {
+        name: 'معین ایزدی',
+        image: 'moein.jpg',
+        title: '',
+        linkedin: 'https://www.linkedin.com/in/moein-izadi-4b40985b/',
+        instagram: 'https://www.instagram.com/izadimoein/',
+      },
+      {
+        name: 'محمد جواد علیرضایی',
+        image: 'javad.jpg',
+        title: '',
+        instagram: 'https://www.instagram.com/mj_alirezaee/',
       },
     ]
   }

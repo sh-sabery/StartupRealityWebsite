@@ -7,13 +7,13 @@ import './style.scss';
 class Speakers extends React.PureComponent{
   state = {
     speakers: [
-      //{
-      //  id: 1,
-      //  image: 'jhubin.jpg',
-      //  name: 'ژوبین علاقه‌بند',
-      //  desc: 'مدیرعامل اسنپ',
-       // linkedin: '',
-     // },
+      {
+        id: 1,
+        image: 'parsa.jpg',
+        name: 'پارسا جانباز',
+        desc: 'مدیر اجرایی علی‌بابا',
+        linkedin: 'https://www.linkedin.com/in/parsa-janbaz-bb42b99b/',
+      },
       {
         id: 4,
         image: 'bahar.jpg',
@@ -36,6 +36,13 @@ class Speakers extends React.PureComponent{
         linkedin: 'https://www.linkedin.com/in/pooria-kaviani-20b99792/',
       },
       {
+        id: 13,
+        image: 'milad.jpg',
+        name: 'میلاد نوری',
+        desc: 'مدیرعامل پونز',
+        linkedin: 'https://www.linkedin.com/in/miladnouri/',
+      },
+      {
         id: 7,
         image: 'aysan.jpg',
         name: 'آیسان سبایی',
@@ -46,7 +53,7 @@ class Speakers extends React.PureComponent{
         id: 8,
         image: 'shervin.jpg',
         name: 'شروین مشایخ',
-        desc: 'مدیر محصول بانک آینده',
+        desc: 'مدیر محصول بازارافزایی بانک آینده',
         linkedin: 'https://www.linkedin.com/in/shervinmashayekh/',
       },
       {
@@ -71,22 +78,18 @@ class Speakers extends React.PureComponent{
         linkedin: 'https://www.linkedin.com/in/iman-aghilian-a934167/',
       },
       {
-        id: 13,
-        image: '1.jpg',
-        name: '?',
-        desc: '?',
+        id: 12,
+        image: 'farzad.jpg',
+        name: 'فرزاد شفیعی',
+        desc: 'معاون ارشد مهندسی ریحون',
+        linkedin: 'https://www.linkedin.com/in/fshafiee/',
       },
       {
-        id: 13,
-        image: '1.jpg',
-        name: '?',
-        desc: '?',
-      },
-      {
-        id: 14,
-        image: '2.jpg',
-        name: '?',
-        desc: '?',
+        id: 12,
+        image: 'navid.jpg',
+        name: 'نوید ایران بهار',
+        desc: 'کارشناس توسعه بازار ایران کیش',
+        linkedin: 'https://www.linkedin.com/in/navidiranbahar/',
       },
     ]
   }

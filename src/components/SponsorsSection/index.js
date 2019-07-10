@@ -41,6 +41,30 @@ function SponsorsSection(){
                 title: 'اسنپ',
                 link: 'http://snapp.ir/',
               },
+              {
+                id: 5,
+                image: 'zitel.png',
+                title: 'زیتل',
+                link: 'http://zi-tel.com/',
+              },
+              {
+                id: 6,
+                image: 'najva.png',
+                title: 'نجوا',
+                link: 'http://najva.com/',
+              },
+              {
+                id: 7,
+                image: 'dpi.png',
+                title: 'داده پردازی ایران',
+                link: 'http://dpi.ir/',
+              },
+              {
+                id: 8,
+                image: 'tapsell.png',
+                title: 'تپسل',
+                link: 'http://tapsell.ir/',
+              },
             ]
           }
         />
@@ -57,6 +81,16 @@ function SponsorsSection(){
                 image: 'shanbe.png',
                 title: 'شنبه',
                 link: 'https://shanbemag.com/',
+              },
+              {
+                image: 'zoomit.png',
+                title: 'زومیت',
+                link: 'https://zoomit.ir/',
+              },
+              {
+                image: 'gholipour.png',
+                title: 'محمد قلی‌پور',
+                link: 'https://www.instagram.com/gholipourmohamad/',
               },
             ]
           }
